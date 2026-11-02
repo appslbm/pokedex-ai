@@ -42,11 +42,11 @@
 
 - **A câmera exige HTTPS.** No GitHub Pages isso é automático. Pela rede local é preciso usar
   `DEV_HTTPS=1` e aceitar o aviso de certificado. O envio de foto funciona em qualquer caso.
-- O pedido de permissão foi testado com câmera simulada em Chromium. A janela de permissão real de
-  cada navegador precisa ser conferida em aparelhos reais, especialmente Safari no iOS.
+- O pedido de permissão foi conferido no Chrome para Windows, no site publicado, e o fluxo completo foi testado com câmera simulada. A janela de permissão de
+  celulares ainda precisa ser conferida em aparelhos reais, especialmente Safari no iOS.
 - **WASM com uma thread.** O GitHub Pages não permite os cabeçalhos COOP/COEP, necessários para
   várias threads. O tempo de análise é aceitável, mas celulares antigos podem ficar lentos no modo ao vivo.
-- O primeiro uso do scanner baixa de 14 a 25 MB (modelo e motor, conforme a compressão do servidor). Depois fica em cache.
+- O primeiro uso do scanner baixa cerca de 14 MB (modelo de 10,4 MB e motor comprimido de 3,9 MB). Depois fica em cache.
 - A lista de instalação do PWA varia: no iOS, é preciso usar "Adicionar à Tela de Início".
 
 ## Offline

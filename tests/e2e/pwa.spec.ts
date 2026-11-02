@@ -2,10 +2,10 @@ import path from 'node:path';
 import { expect, test } from '@playwright/test';
 
 /**
- * Service worker exige certificado confiável, então este arquivo usa http://localhost,
- * que os navegadores também tratam como contexto seguro. Mesmo subcaminho do Pages.
+ * Service worker exige certificado confiável. Localmente, este arquivo usa http://localhost,
+ * que os navegadores também tratam como contexto seguro, com o mesmo subcaminho do Pages.
  */
-const BASE = 'http://localhost:4174/pokedex-ai/';
+const BASE = process.env.PAGES_URL ?? 'http://localhost:4174/pokedex-ai/';
 
 test.describe('PWA', () => {
   test.use({ baseURL: BASE, ignoreHTTPSErrors: false });

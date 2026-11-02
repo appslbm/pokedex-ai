@@ -2,8 +2,9 @@ import { expect, test as base, type Page } from '@playwright/test';
 
 /** Ruídos esperados no ambiente de teste, não defeitos da aplicação. */
 const EXPECTED = [
-  /when fetching the script/i, // certificado autoassinado do servidor local impede o service worker
   /status of 404/i, // o GitHub Pages responde 404 em rotas profundas; é o fallback funcionando
+  // O certificado autoassinado do servidor local impede o service worker. No site real, é erro.
+  ...(process.env.PAGES_URL ? [] : [/when fetching the script/i]),
 ];
 
 export const test = base.extend<{ consoleErrors: string[] }>({
