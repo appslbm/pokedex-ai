@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Pokédex AI</title>
+    <meta name="description" content="Enciclopédia Pokémon com busca, fichas completas, narração por voz e identificação visual feita no próprio aparelho." />
+    <meta name="theme-color" content="#c8102e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Pokédex AI" />
+    <link rel="icon" href="%BASE_URL%icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="%BASE_URL%icons/apple-touch-icon.png" />
+    <script>
+      // Aplica o tema antes da primeira pintura para evitar um clarão ao abrir.
+      (function () {
+        var theme = 'auto';
+        try { theme = localStorage.getItem('pokedex:theme') || 'auto'; } catch (e) {}
+        var dark = theme === 'dark' || (theme === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>A Pokédex AI precisa de JavaScript para funcionar.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

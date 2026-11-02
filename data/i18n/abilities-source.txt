@@ -1,0 +1,301 @@
+Tem 10% de chance de fazer o alvo recuar a cada golpe.
+Invoca chuva por tempo indeterminado ao entrar na batalha.
+Aumenta a Velocidade em um estágio ao fim de cada turno.
+Protege contra golpes críticos.
+Evita ser nocauteado com PS cheio, restando 1 PS. Protege contra golpes de nocaute instantâneo, com qualquer PS.
+Impede o uso de Self-Destruct, Explosion e Aftermath enquanto o Pokémon estiver em batalha.
+Impede a paralisia.
+Aumenta a evasão em 1,25 vez durante tempestades de areia e protege contra o dano delas.
+Tem 30% de chance de paralisar quem o atacar por contato.
+Absorve golpes Elétricos e recupera 1/4 do PS máximo.
+Absorve golpes de Água e recupera 1/4 do PS máximo.
+Impede a paixão e protege contra Captivate.
+Anula todos os efeitos do clima, mas não impede o clima em si.
+Aumenta a precisão dos golpes em 1,3 vez.
+Impede o sono.
+Muda o próprio tipo para o do golpe de dano que o atingir.
+Impede o envenenamento.
+Protege contra golpes de Fogo. Depois de bloquear um, os próprios golpes de Fogo causam 1,5 vez mais dano até sair da batalha.
+Protege contra os efeitos adicionais dos golpes recebidos.
+Impede a confusão.
+Impede ser forçado a sair da batalha por golpes de outros Pokémon.
+Reduz o Ataque dos oponentes em um estágio ao entrar na batalha.
+Impede que os oponentes fujam ou sejam trocados.
+Causa dano de 1/8 do PS máximo a quem o atacar por contato.
+Protege contra golpes de dano que não sejam supereficazes.
+Desvia de golpes Terrestres.
+Tem 30% de chance de paralisar, envenenar ou adormecer quem o atacar por contato.
+Devolve queimaduras, paralisia e envenenamento a quem os causou.
+Impede que outros Pokémon reduzam seus atributos.
+Cura qualquer problema de status ao ser trocado.
+Atrai para si golpes Elétricos de alvo único, quando possível. Absorve golpes Elétricos e aumenta o Ataque Especial em um estágio.
+Dobra a chance de os efeitos adicionais dos golpes acontecerem.
+Dobra a Velocidade na chuva.
+Dobra a Velocidade sob sol forte.
+Dobra a taxa de encontros selvagens.
+Copia a habilidade de um oponente ao entrar na batalha.
+Dobra o Ataque em batalha.
+Tem 30% de chance de envenenar quem o atacar por contato.
+Impede o recuo.
+Impede o congelamento.
+Impede queimaduras.
+Impede que oponentes do tipo Aço fujam ou sejam trocados.
+Protege contra golpes sonoros.
+Recupera 1/16 do PS máximo ao fim de cada turno na chuva.
+Invoca uma tempestade de areia por tempo indeterminado ao entrar na batalha.
+Aumenta em um o custo de PP dos golpes usados contra este Pokémon.
+Reduz pela metade o dano de golpes de Fogo e Gelo.
+Faz o sono passar duas vezes mais rápido.
+Tem 30% de chance de queimar quem o atacar por contato.
+Garante a fuga de batalhas selvagens.
+Impede a redução da precisão.
+Impede que outros Pokémon reduzam seu Ataque.
+Recolhe itens usados e arremessados por outros Pokémon. Também pode encontrar um item depois da batalha.
+Fica sem agir a cada dois turnos.
+Aumenta o dano dos golpes físicos em 1,5 vez, mas reduz a precisão deles para 0,8 vez.
+Tem 30% de chance de apaixonar quem o atacar por contato.
+Aumenta o Ataque Especial em 1,5 vez quando um aliado tem Plus ou Minus.
+Muda o tipo e a forma de Castform de acordo com o clima.
+Impede que outros Pokémon removam o item que ele segura.
+Tem 33% de chance de curar qualquer problema de status ao fim de cada turno.
+Aumenta o Ataque em 1,5 vez quando tem um problema de status.
+Aumenta a Defesa em 1,5 vez quando tem um problema de status.
+Causa dano a quem usar golpes de drenagem, igual ao que seria recuperado.
+Aumenta o dano dos golpes de Planta em 1,5 vez com 1/3 do PS máximo ou menos.
+Aumenta o dano dos golpes de Fogo em 1,5 vez com 1/3 do PS máximo ou menos.
+Aumenta o dano dos golpes de Água em 1,5 vez com 1/3 do PS máximo ou menos.
+Aumenta o dano dos golpes de Inseto em 1,5 vez com 1/3 do PS máximo ou menos.
+Protege contra dano de recuo.
+Invoca sol forte por tempo indeterminado ao entrar na batalha.
+Impede que os oponentes fujam ou sejam trocados. Tipos Voadores e Pokémon no ar escapam deste efeito.
+Dobra a evasão quando está confuso.
+Absorve golpes Elétricos e aumenta a Velocidade em um estágio.
+Aumenta o dano em 1,25 vez contra Pokémon do mesmo gênero, mas reduz para 0,75 vez contra o gênero oposto.
+Aumenta a Velocidade em um estágio ao recuar.
+Aumenta a evasão em 1,25 vez durante o granizo e protege contra o dano dele.
+Faz o Pokémon comer a fruta que segura com menos da metade do PS, em vez do limite normal.
+Eleva o Ataque ao máximo de seis estágios ao receber um golpe crítico.
+Dobra a Velocidade ao usar ou perder o item que segura.
+Reduz pela metade o dano de golpes de Fogo e de queimaduras.
+Dobra os modificadores de atributos do Pokémon, ainda limitados a seis estágios para mais ou para menos.
+Perde 1/8 do PS máximo por turno sob sol forte, mas recupera 1/8 na chuva. Recebe 1,25 vez mais dano de golpes de Fogo e absorve golpes de Água, recuperando 1/4 do PS máximo.
+Ao entrar na batalha, aumenta em um estágio o atributo de ataque que explora a defesa mais fraca dos oponentes.
+Aumenta a potência dos socos em 1,2 vez.
+Quando envenenado, recupera 1/8 do PS máximo a cada turno em vez de perder.
+Aumenta o bônus de golpes do mesmo tipo de 1,5 para 2 vezes.
+Golpes de duas a cinco investidas e Triple Kick sempre acertam o número máximo de vezes.
+Cura qualquer problema de status ao fim de cada turno na chuva.
+Aumenta o Ataque Especial em 1,5 vez, mas perde 1/8 do PS máximo por turno sob sol forte.
+Aumenta a Velocidade em 1,5 vez quando tem um problema de status.
+Faz todos os golpes do Pokémon serem do tipo Normal.
+Golpes críticos causam 3 vezes o dano, em vez de 2.
+Protege contra dano que não venha diretamente de um golpe.
+Garante que todos os golpes usados por ele e contra ele acertem.
+Faz o Pokémon agir por último dentro da prioridade do golpe.
+Aumenta em 1,5 vez a potência de golpes com 60 de poder base ou menos.
+Protege contra problemas de status sob sol forte.
+Impede o Pokémon de usar em batalha o item que segura.
+Ignora habilidades dos alvos que poderiam atrapalhar ou impedir um golpe.
+Aumenta em um estágio a taxa de golpes críticos.
+Causa ao atacante dano de 1/4 do PS máximo dele quando é nocauteado por um golpe de contato.
+Ao entrar na batalha, avisa se um oponente tem golpe supereficaz, Self-Destruct, Explosion ou golpe de nocaute instantâneo.
+Revela o golpe mais forte dos oponentes ao entrar na batalha.
+Ignora os modificadores de atributos de outros Pokémon no cálculo de dano e precisão.
+Dobra o dano de golpes pouco eficazes.
+Reduz em 1/4 o dano recebido de golpes supereficazes.
+Reduz pela metade o Ataque e a Velocidade por cinco turnos ao entrar na batalha.
+Permite que golpes Normais e Lutadores atinjam Pokémon Fantasma.
+Atrai para si golpes de Água de alvo único, quando possível. Absorve golpes de Água e aumenta o Ataque Especial em um estágio.
+Recupera 1/16 do PS máximo por turno durante o granizo e protege contra o dano dele.
+Invoca granizo por tempo indeterminado ao entrar na batalha.
+Pode encontrar Mel depois da batalha.
+Revela o item que um oponente segura ao entrar na batalha.
+Aumenta a potência dos golpes com recuo em 1,2 vez.
+Muda o tipo e a forma de Arceus de acordo com a Placa que ele segura.
+Aumenta em 1,5 vez o Ataque e a Defesa Especial dos aliados sob sol forte.
+Causa dano de 1/8 do PS máximo por turno a oponentes adormecidos.
+Rouba o item de quem o atacar por contato.
+Aumenta em 1,3 vez a potência de golpes com efeitos adicionais, mas elimina esses efeitos.
+Inverte as mudanças de atributos.
+Impede que os oponentes comam as frutas que seguram.
+Aumenta o Ataque em dois estágios quando algum atributo é reduzido.
+Reduz pela metade o Ataque e o Ataque Especial com 50% do PS máximo ou menos.
+Tem 30% de chance de desativar o golpe que atingir este Pokémon.
+Tem 30% de chance de curar problemas de status de cada aliado adjacente ao fim do turno.
+Reduz para 0,75 vez todo dano direto recebido pelos aliados.
+Ao ser atingido por um golpe físico, aumenta a Velocidade e reduz a Defesa em um estágio cada.
+Dobra o peso do Pokémon.
+Reduz o peso do Pokémon pela metade.
+Reduz pela metade o dano recebido com o PS cheio.
+Aumenta o Ataque em 1,5 vez quando envenenado.
+Aumenta o Ataque Especial em 1,5 vez quando queimado.
+Tem 50% de chance de recuperar uma fruta usada ao fim do turno, se não estiver segurando outro item.
+Protege contra golpes de dano dos aliados.
+Ao fim de cada turno, aumenta um atributo aleatório em dois estágios e reduz outro em um.
+Protege contra dano causado pelo clima.
+Tem 30% de chance de envenenar o alvo ao fazer contato.
+Recupera 1/3 do PS máximo ao ser trocado.
+Protege contra a redução da Defesa.
+Dobra a Velocidade durante tempestades de areia e protege contra o dano delas.
+Reduz para exatamente 50% a precisão base de golpes sem dano recebidos.
+Aumenta a potência dos golpes em 1,3 vez quando age por último.
+Assume a aparência do último Pokémon consciente da equipe até ser atingido por um golpe de dano.
+Transforma-se ao entrar na batalha.
+Ignora Light Screen, Reflect e Safeguard.
+Transforma a habilidade de quem o atacar por contato em Mummy.
+Aumenta o Ataque em um estágio ao nocautear um Pokémon.
+Aumenta o Ataque em um estágio ao receber dano de um golpe Sombrio.
+Aumenta a Velocidade em um estágio ao ser atingido por um golpe Sombrio, Fantasma ou Inseto.
+Reflete de volta a maioria dos golpes sem dano.
+Absorve golpes de Planta e aumenta o Ataque em um estágio.
+Aumenta em um estágio a prioridade dos golpes sem dano.
+Sob tempestade de areia, aumenta em 1,3 vez a potência de golpes de Pedra, Terrestres e de Aço, e protege contra o dano dela.
+Muda a forma de Darmanitan a cada turno conforme o PS: Modo Zen abaixo de 50% do PS máximo e Modo Padrão no restante.
+Aumenta a precisão dos golpes dos aliados em 1,1 vez.
+Ignora habilidades dos alvos que poderiam atrapalhar ou impedir golpes.
+Protege os aliados contra golpes que afetam o estado mental.
+Protege aliados do tipo Planta de terem os atributos reduzidos por outros Pokémon.
+Recupera PS ao comer uma fruta, além do efeito normal dela.
+Muda o próprio tipo para o de cada golpe que usar.
+Reduz pela metade o dano de ataques físicos.
+Rouba o item do alvo ao usar um golpe de dano.
+Protege contra golpes de projétil, bola e bomba.
+Aumenta o Ataque Especial em dois estágios quando algum atributo é reduzido.
+Aumenta a potência das mordidas em 1,5 vez.
+Transforma golpes Normais em golpes de Gelo e aumenta a potência deles em 1,3 vez.
+Impede que os aliados adormeçam.
+Muda Aegislash para a Forma Lâmina antes de um golpe de dano e para a Forma Escudo antes de King’s Shield.
+Aumenta em um estágio a prioridade dos golpes Voadores.
+Aumenta em 1,5 vez a potência de golpes de aura e de pulso.
+Aumenta a Defesa enquanto o Terreno de Grama estiver ativo.
+Passa o item que segura a um aliado quando ele gasta o próprio item.
+Aumenta em 1,33 vez a potência de golpes de contato.
+Transforma golpes Normais em golpes de Fada e aumenta a potência deles em 1,3 vez.
+Reduz a Velocidade de quem o atacar por contato em um estágio.
+Transforma golpes Normais em golpes Voadores e aumenta a potência deles em 1,3 vez.
+Faz os golpes de dano atingirem duas vezes. O segundo acerto tem metade da potência.
+Aumenta em 1,33 vez a potência dos golpes Sombrios de todos os Pokémon em campo.
+Aumenta em 1,33 vez a potência dos golpes de Fada de todos os Pokémon em campo.
+Faz Dark Aura e Fairy Aura enfraquecerem os golpes dos seus tipos.
+Cria uma chuva forte, com os efeitos de Rain Dance, que não pode ser substituída e faz golpes de Fogo com dano falharem.
+Cria um sol extremo, com os efeitos de Sunny Day, que não pode ser substituído e faz golpes de Água com dano falharem.
+Cria uma misteriosa corrente de ar que não pode ser substituída e impede golpes de serem supereficazes contra Pokémon Voadores.
+Aumenta a Defesa em um estágio ao receber dano de um golpe.
+Este Pokémon é trocado automaticamente quando o PS cai abaixo da metade.
+Aumenta a Defesa em dois estágios ao ser atingido por um golpe de Água.
+Os golpes deste Pokémon são críticos contra alvos envenenados.
+Transforma Minior entre a Forma Núcleo e a Forma Meteoro. Impede problemas de status e sonolência na Forma Meteoro.
+Os golpes têm o dobro da potência contra Pokémon que entraram neste turno.
+Reduz pela metade o dano de golpes de Fogo, dobra o dano dos golpes de Água e impede queimaduras.
+Os golpes de Aço deste Pokémon têm 1,5 vez mais potência.
+Aumenta o Ataque Especial em um estágio sempre que o PS cai abaixo da metade.
+Durante o granizo, este Pokémon tem o dobro da Velocidade.
+Os golpes deste Pokémon não fazem contato.
+Golpes sonoros passam a ser do tipo Água.
+Aumenta em 3 a prioridade dos golpes de cura deste Pokémon.
+Os golpes Normais viram Elétricos e têm a potência aumentada em 1,2 vez.
+Dobra a Velocidade no Terreno Elétrico.
+Wishiwashi assume a Forma Cardume quando o PS está em 25% ou mais.
+Evita o primeiro dano sofrido em batalha.
+Transforma este Pokémon em Ash-Greninja ao nocautear um oponente. Water Shuriken passa a ter potência 20 e sempre atinge três vezes.
+Transforma Zygarde 10% ou 50% na Forma Completa quando o PS fica abaixo de 50%.
+Este Pokémon consegue envenenar Pokémon Venenosos e de Aço.
+Este Pokémon age sempre como se estivesse adormecido.
+Os oponentes não podem usar golpes com prioridade.
+Quando desmaia por um golpe, o oponente recebe dano igual ao PS que restava a este Pokémon.
+Quando outro Pokémon usa um golpe de dança, este Pokémon repete o golpe logo em seguida.
+Aumenta em 1,3 vez a potência dos golpes dos aliados.
+Reduz pela metade o dano de golpes de contato. Dobra o dano de golpes de Fogo.
+Aumenta o Ataque Especial em um estágio sempre que um Pokémon desmaia.
+Ao receber dano de um golpe de contato, reduz a Velocidade do atacante em um estágio.
+Quando um aliado desmaia, este Pokémon ganha a habilidade dele.
+Aumenta o maior atributo em um estágio ao nocautear outro Pokémon.
+Muda o tipo deste Pokémon de acordo com a Memória que ele segura.
+Ao entrar na batalha, muda o terreno para Terreno Elétrico.
+Ao entrar na batalha, muda o terreno para Terreno Psíquico.
+Ao entrar na batalha, muda o terreno para Terreno Enevoado.
+Ao entrar na batalha, muda o terreno para Terreno de Grama.
+Outros Pokémon não podem reduzir os atributos deste Pokémon.
+Com o PS cheio, o dano comum de golpes é reduzido pela metade.
+Reduz o dano supereficaz para 0,75 vez.
+Aumenta em 1,25 vez o dano supereficaz causado.
+Aumenta o Ataque em batalha.
+Aumenta a Defesa em batalha.
+Muda o tipo do Pokémon para o do golpe usado anteriormente.
+Se não estiver segurando um item, busca a Poké Bola do primeiro arremesso que falhou na batalha.
+Ignora golpes e habilidades que atraem golpes.
+Ignora golpes e habilidades que atraem golpes.
+Reflete efeitos que reduzem atributos.
+Quando um Cramorant com Gulp Missile usa Surf ou Dive, ele captura uma presa e muda de forma conforme o PS restante.
+Aumenta muito a Velocidade ao ser atingido por um golpe de Fogo ou Água.
+Fortalece golpes sonoros e reduz pela metade o dano recebido deles.
+Cria uma tempestade de areia ao ser atingido por um ataque.
+Reduz pela metade o dano de golpes especiais.
+Dobra o efeito das frutas.
+A cabeça de gelo aguenta um ataque físico no lugar do Pokémon, mas muda sua aparência. O gelo volta quando neva.
+Estar ao lado deste Pokémon já fortalece os golpes.
+Muda de tipo de acordo com o terreno.
+Anula os efeitos de Light Screen, Reflect e Aurora Veil.
+Fortalece os golpes de Aço dos aliados.
+Ao receber um golpe de contato, este Pokémon e o atacante desmaiam em três turnos, a menos que saiam da batalha.
+Troca de habilidade com os oponentes ao fazer contato.
+Aumenta o Ataque, mas só permite usar o primeiro golpe escolhido.
+Neutraliza as habilidades de todos os Pokémon em batalha.
+Impede que este Pokémon e seus aliados sejam envenenados.
+Faz Morpeko mudar de forma a cada turno, alternando entre Modo Barriga Cheia e Modo Faminto.
+Permite agir primeiro de vez em quando.
+Golpes de contato atravessam Protect e Detect.
+Zera todas as mudanças de atributos ao entrar em campo.
+Fortalece golpes Elétricos.
+Fortalece golpes de Dragão.
+Aumenta o Ataque depois de nocautear um Pokémon.
+Aumenta o Ataque Especial depois de nocautear um Pokémon.
+Combina os efeitos de Unnerve e Chilling Neigh.
+Combina os efeitos de Unnerve e Grim Neigh.
+O contato muda a habilidade do atacante para Lingering Aroma.
+Transforma o chão em Terreno de Grama ao ser atingido por um ataque.
+Aumenta o Ataque ao ser atingido por um golpe de Fogo. Não pode ser queimado.
+Quando o PS cai abaixo da metade, reduz a Defesa e a Defesa Especial, mas aumenta o Ataque, o Ataque Especial e a Velocidade.
+Protege contra problemas de status e reduz pela metade o dano de golpes Fantasma.
+Imune a golpes de Fogo, que aumentam muito sua Defesa.
+Dá imunidade a golpes de vento e aumenta o Ataque em um estágio ao ser atingido por um deles.
+Aumenta o Ataque se for intimidado e impede ser forçado a sair.
+Fortalece golpes de Pedra.
+Ao ser atingido por um golpe de vento, dobra a potência do próximo golpe Elétrico.
+Transforma-se na Forma Heroica ao ser trocado.
+Entra na boca de um Dondozo aliado, se houver um em campo.
+Ao ser atingido por um ataque, dobra a potência do próximo golpe Elétrico.
+Aumenta o maior atributo sob sol forte ou segurando Energia Booster.
+Aumenta o maior atributo no Terreno Elétrico ou segurando Energia Booster.
+Dá imunidade a golpes de status.
+Reduz o Ataque Especial de todos os Pokémon, exceto o próprio.
+Reduz a Defesa de todos os Pokémon, exceto o próprio.
+Reduz o Ataque de todos os Pokémon, exceto o próprio.
+Reduz a Defesa Especial de todos os Pokémon, exceto o próprio.
+Torna o sol forte ao entrar na batalha e aumenta o Ataque enquanto isso durar.
+Cria Terreno Elétrico ao entrar na batalha e aumenta o Ataque Especial enquanto ele durar.
+Copia os aumentos de atributos do oponente.
+Reutiliza uma fruta já consumida ao fim do turno seguinte.
+Fortalece golpes cortantes.
+O Ataque e o Ataque Especial aumentam para cada Pokémon derrotado da equipe.
+Copia as mudanças de atributos de um aliado ao entrar na batalha.
+Espalha espinhos venenosos sob os oponentes ao receber dano de golpes físicos.
+Impede o oponente de usar golpes com prioridade, como Quick Attack.
+Recupera PS ao ser atingido por um golpe Terrestre.
+Golpes de status agem por último, mas não são afetados pela habilidade do oponente.
+Ignora a evasão dos oponentes, não pode ter a precisão reduzida e atinge Pokémon Fantasma com golpes Normais e Lutadores.
+Uma vez por batalha, ao entrar em campo, reduz a evasão dos oponentes adjacentes em um estágio.
+Ao entrar na batalha, recupera 25% do PS de um aliado.
+Pode envenenar gravemente o oponente ao atingi-lo com um golpe.
+Aumenta um atributo específico de acordo com a forma do Ogerpon Terastalizado.
+Ao entrar na batalha, Terapagos assume a Forma Terastal até o fim dela.
+Com o PS cheio, todo golpe de dano recebido será pouco eficaz.
+Assim que assume a Forma Estelar, Terapagos neutraliza os efeitos de clima e terreno.
+Pokémon envenenados pelos golpes de Pecharunt também ficam confusos.
+Golpes de contato atingem até alvos que estão se protegendo.
+Os golpes Normais viram golpes de Dragão e têm a potência aumentada em 20%.
+Pode usar seus golpes como se houvesse sol forte.
+Queima o atacante ao receber dano de um golpe.
+Flutua acima do chão e fica imune a golpes Terrestres, Spikes, Toxic Spikes e Sticky Web. Ao nocautear um alvo, seu maior atributo aumenta em 1 estágio.
+Aumenta em 50% a potência dos golpes de Fogo do Pokémon.
+Recebe metade do dano de golpes de contato.

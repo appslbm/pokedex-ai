@@ -1,0 +1,32 @@
+# Dependências e builds
+node_modules/
+dist/
+dev-dist/
+*.tsbuildinfo
+
+# Testes
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
+# Cache local do gerador de dados
+.cache/
+
+# Ambiente, modelos brutos e datasets do pipeline de ML (vários GB)
+ml/.work/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+*.log
+
+# Imagens de teste geradas na hora
+tests/e2e/fixtures/

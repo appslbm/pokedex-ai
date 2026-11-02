@@ -1,0 +1,199 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/outfit';
+@import '@fontsource-variable/inter';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-display: 'Outfit Variable', system-ui, sans-serif;
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+
+  --color-brand: #c8102e;
+  --color-brand-deep: #8f0a20;
+  --color-brand-glow: #ff5a5f;
+  --color-lens: #2fb6ff;
+
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+
+  --ease-spring: cubic-bezier(0.2, 0.9, 0.3, 1.15);
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  --canvas: #f3f4f8;
+  --surface: #ffffff;
+  --surface-2: #eceef4;
+  --line: #dfe2ea;
+  --ink: #161a26;
+  --muted: #5b6275;
+  --nav-height: 68px;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --canvas: #0e1220;
+  --surface: #171c2e;
+  --surface-2: #20263b;
+  --line: #2b3249;
+  --ink: #f1f3f9;
+  --muted: #a3abc0;
+  color-scheme: dark;
+}
+
+/* Cores dos tipos. `--t` é o tom principal e `--t-ink` garante contraste sobre ele. */
+[data-type='normal'] { --t: #9a9a7b; --t-ink: #1c1c12; }
+[data-type='fire'] { --t: #f0702e; --t-ink: #2a1003; }
+[data-type='water'] { --t: #4a8df0; --t-ink: #06183a; }
+[data-type='electric'] { --t: #f4c62f; --t-ink: #2f2500; }
+[data-type='grass'] { --t: #5cb85c; --t-ink: #082108; }
+[data-type='ice'] { --t: #7fd4d4; --t-ink: #06282a; }
+[data-type='fighting'] { --t: #c9403a; --t-ink: #fff7f6; }
+[data-type='poison'] { --t: #a553ad; --t-ink: #fff7ff; }
+[data-type='ground'] { --t: #dcb45e; --t-ink: #2c2005; }
+[data-type='flying'] { --t: #94a9f2; --t-ink: #0d1a42; }
+[data-type='psychic'] { --t: #f4578a; --t-ink: #33000f; }
+[data-type='bug'] { --t: #a7b723; --t-ink: #1e2200; }
+[data-type='rock'] { --t: #b8a14a; --t-ink: #241d04; }
+[data-type='ghost'] { --t: #6f5a9c; --t-ink: #faf7ff; }
+[data-type='dragon'] { --t: #6d3df2; --t-ink: #f8f5ff; }
+[data-type='dark'] { --t: #5c4d44; --t-ink: #fbf7f4; }
+[data-type='steel'] { --t: #9fb0c6; --t-ink: #111b28; }
+[data-type='fairy'] { --t: #ee99c8; --t-ink: #36081f; }
+
+/* Raridade: cor própria, deliberadamente diferente das cores dos tipos. */
+[data-rarity='normal'] { --r: #4c5365; --r-soft: color-mix(in srgb, #7c8496 16%, transparent); }
+[data-rarity='incomum'] { --r: #0b6b40; --r-soft: color-mix(in srgb, #1f9d63 16%, transparent); }
+[data-rarity='raro'] { --r: #1558ad; --r-soft: color-mix(in srgb, #2478e0 16%, transparent); }
+[data-rarity='epico'] { --r: #6a25c9; --r-soft: color-mix(in srgb, #8a3df0 16%, transparent); }
+[data-rarity='lendario'] { --r: #854f00; --r-soft: color-mix(in srgb, #d98500 18%, transparent); }
+[data-rarity='mitico'] { --r: #ad0f5a; --r-soft: color-mix(in srgb, #e0267f 16%, transparent); }
+
+:root[data-theme='dark'] [data-rarity='normal'] { --r: #aab2c4; }
+:root[data-theme='dark'] [data-rarity='incomum'] { --r: #4fd694; }
+:root[data-theme='dark'] [data-rarity='raro'] { --r: #6cb2ff; }
+:root[data-theme='dark'] [data-rarity='epico'] { --r: #bb8dff; }
+:root[data-theme='dark'] [data-rarity='lendario'] { --r: #ffbe4d; }
+:root[data-theme='dark'] [data-rarity='mitico'] { --r: #ff7ab8; }
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: auto;
+  }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; }
+  button { cursor: pointer; font: inherit; color: inherit; }
+  :focus-visible {
+    outline: 3px solid var(--color-lens);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+}
+
+@utility tabular { font-variant-numeric: tabular-nums; }
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* Painel vermelho curvo, a assinatura visual da Pokédex. */
+.dex-header {
+  background:
+    radial-gradient(120% 140% at 12% -20%, #ff4757 0%, transparent 55%),
+    linear-gradient(160deg, var(--color-brand) 0%, var(--color-brand-deep) 100%);
+  box-shadow: 0 10px 28px -14px rgb(143 10 32 / 0.8);
+}
+
+.lens {
+  background:
+    radial-gradient(circle at 34% 30%, #ffffff 0 9%, transparent 11%),
+    radial-gradient(circle at 42% 38%, #9fe4ff 0%, #2fb6ff 42%, #0b5fb0 100%);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px rgb(0 0 0 / 0.18), 0 0 18px 2px rgb(47 182 255 / 0.55);
+}
+
+.led { border-radius: 999px; box-shadow: inset -1px -1px 2px rgb(0 0 0 / 0.3), inset 1px 1px 2px rgb(255 255 255 / 0.6); }
+
+.card-glow {
+  background:
+    radial-gradient(90% 75% at 75% 18%, color-mix(in srgb, var(--t) 58%, transparent) 0%, transparent 72%),
+    linear-gradient(170deg, color-mix(in srgb, var(--t) 24%, var(--surface)) 0%, var(--surface) 72%);
+}
+
+.hero-glow {
+  background:
+    radial-gradient(70% 60% at 50% 42%, color-mix(in srgb, var(--t) 70%, transparent) 0%, transparent 74%),
+    linear-gradient(180deg, color-mix(in srgb, var(--t) 46%, var(--canvas)) 0%, var(--canvas) 100%);
+}
+
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+.safe-top { padding-top: calc(env(safe-area-inset-top) + var(--safe-extra, 0px)); }
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: none; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes float-art {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes scan-sweep {
+  0% { top: 4%; opacity: 0; }
+  12%, 88% { opacity: 1; }
+  100% { top: 96%; opacity: 0; }
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgb(200 16 46 / 0.5); }
+  100% { box-shadow: 0 0 0 16px rgb(200 16 46 / 0); }
+}
+@keyframes grow-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes sparkle {
+  0%, 100% { transform: scale(0.6) rotate(0deg); opacity: 0; }
+  50% { transform: scale(1) rotate(25deg); opacity: 1; }
+}
+
+.animate-rise { animation: rise-in 0.42s var(--ease-out-soft) both; }
+.animate-sheet { animation: sheet-up 0.34s var(--ease-out-soft) both; }
+.animate-fade { animation: fade-in 0.24s ease both; }
+.animate-float { animation: float-art 5s ease-in-out infinite; }
+.animate-scan { animation: scan-sweep 2.1s ease-in-out infinite; }
+.animate-pulse-ring { animation: pulse-ring 1.5s ease-out infinite; }
+.animate-grow-x { animation: grow-x 0.8s var(--ease-out-soft) both; transform-origin: left; }
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 25%, color-mix(in srgb, var(--surface-2) 55%, var(--surface)) 50%, var(--surface-2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.3s linear infinite;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) { animation-duration: 0.22s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}
