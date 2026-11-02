@@ -50,37 +50,36 @@ export function descriptionScript(species: SpeciesDetail): { text: string; lang:
 }
 
 /**
- * Divide o texto em frases. O Chrome no Android interrompe falas longas sem aviso,
- * então cada trecho precisa ser curto.
+ * Limite de cada trecho falado: cerca de 11 segundos em velocidade normal. Fica abaixo dos
+ * 15 segundos em que o Chrome no desktop corta vozes pela rede sem avisar. Trechos curtos
+ * também limitam o que se perde quando o aparelho interrompe a fala.
  */
-export function splitForSpeech(text: string, maxLength = 180): string[] {
-  const sentences = text.match(/[^.!?]+[.!?]*\s*/g)?.map((s) => s.trim()).filter(Boolean) ?? [];
+export const MAX_CHUNK_LENGTH = 150;
+
+/**
+ * Divide o texto em trechos, preferindo fim de frase, depois pausas e, em último caso,
+ * espaços. O ponto só encerra frase antes de espaço: "4.600 pés" precisa continuar inteiro.
+ */
+export function splitForSpeech(text: string, maxLength = MAX_CHUNK_LENGTH): string[] {
+  const sentences = text.trim().match(/\S.*?(?:[.!?…]+(?=\s|$)|$)/gs) ?? [];
+  const pieces = sentences.flatMap((sentence) =>
+    sentence.length <= maxLength
+      ? [sentence]
+      : sentence
+          .split(/(?<=[,;:])\s+/)
+          .flatMap((clause) => (clause.length <= maxLength ? [clause] : clause.split(/\s+/))),
+  );
+
   const chunks: string[] = [];
   let current = '';
-  const push = () => {
-    if (current) chunks.push(current);
-    current = '';
-  };
-  for (const sentence of sentences) {
-    if (sentence.length > maxLength) {
-      push();
-      let piece = '';
-      for (const clause of sentence.split(/(?<=,)\s+/)) {
-        if (piece && piece.length + clause.length + 1 > maxLength) {
-          chunks.push(piece);
-          piece = clause;
-        } else {
-          piece = piece ? `${piece} ${clause}` : clause;
-        }
-      }
-      if (piece) chunks.push(piece);
-    } else if (current && current.length + sentence.length + 1 > maxLength) {
-      push();
-      current = sentence;
+  for (const piece of pieces) {
+    if (current && current.length + piece.length + 1 > maxLength) {
+      chunks.push(current);
+      current = piece;
     } else {
-      current = current ? `${current} ${sentence}` : sentence;
+      current = current ? current + ' ' + piece : piece;
     }
   }
-  push();
+  if (current) chunks.push(current);
   return chunks;
 }

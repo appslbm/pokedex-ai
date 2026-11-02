@@ -35,8 +35,17 @@
 ## Narração
 
 - Depende das vozes instaladas no aparelho. Qualidade e sotaque variam, e pode não haver voz em
-  português. Testada com vozes reais no Windows (Edge e Chrome); ainda falta testar em Android e iOS.
+  português. Testada com vozes reais no Windows (Edge e Chrome). No Android, foi testada com um
+  simulador baseado no código do Chromium; ainda falta confirmar em aparelhos reais, Android e iOS.
 - Nomes de Pokémon são lidos com pronúncia portuguesa, que nem sempre é a usual.
+- O texto é falado em trechos de até 150 caracteres. Algumas vozes fazem uma pequena pausa entre eles.
+- **Nunca use `speechSynthesis.pause()` neste projeto.** No Chrome para Android, ele encerra a fala em
+  vez de pausar, e a página não recebe nenhum evento (`tts_android.cc`). Por isso não há botão de pausa,
+  só parar e repetir.
+- Ao trocar de app ou bloquear a tela, o celular pode interromper a voz. A narração espera e retoma do
+  trecho interrompido quando a pessoa volta, o que pode repetir uma frase.
+- Na primeira abertura depois de uma nova versão, o app se atualiza e recarrega uma vez, o que encerra
+  uma narração iniciada naquele instante.
 
 ## Câmera e plataforma
 
